@@ -17,7 +17,11 @@
 - [x] Bonus: LoanStatus Enum for Rejected Loan
 
 ## Screenshots
-[Sertakan screenshots dari Remix]
+<img width="363" height="707" alt="image" src="https://github.com/user-attachments/assets/710d742f-b83d-45b6-93ff-b88fb7de1e82" />
+<img width="1615" height="663" alt="approve-loan" src="https://github.com/user-attachments/assets/2039b3dc-125a-4aa6-a6fa-382357c144cd" />
+<img width="1605" height="710" alt="apply-loan" src="https://github.com/user-attachments/assets/aad14f13-7ed1-4dae-90e1-2755381183e6" />
+<img width="1619" height="679" alt="payment" src="https://github.com/user-attachments/assets/24ea6a03-6e5b-48d7-b059-dd7c3248d11c" />
+
 
 ## How to Test
 1. Deploy contract di Mantle Sepolia
@@ -29,4 +33,9 @@
 
 ## Lessons Learned
 Berikut adalah hal yang saya pelajari dari challenge ini.
-1. Membuat status dengan menggunakan enum
+1. Enum adalah tipe data yang berguna untuk membatasi pilihan sesuai dengan konteks yang kita inginkan, contohnya pada LoanStatus.
+2. Data types seperti string, uint, mapping, serta struct.
+3. Penerapan access modifier.
+4. Fungsi payable untuk mengirim sejumlah coin/token
+5. Implementasi modifier yang memudahkan pengecekan fungsi sehingga kode dapat menerapkan prinsip DRY (Don't Repeat Yourself)
+6. Event yang di-emit agar bisa di-index di aplikasi web.
